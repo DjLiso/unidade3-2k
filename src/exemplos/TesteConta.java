@@ -4,7 +4,8 @@ public class TesteConta {
     public static void main(String[] args) {
         Conta c = new Conta();
         c.depositar(100);
-        c.depositar(100);
+c.depositar(100);
+
         c.setNumero(666);
         c.setNomeTitular("Thiago");
       
@@ -19,5 +20,6 @@ public class TesteConta {
       ///  System.out.println("Saldo: " + c.getSaldo());
         
         System.out.println(c);
+       
     }
 }

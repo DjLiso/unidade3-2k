@@ -9,7 +9,7 @@ public class Conta {
         // this.saldo += valor;
         this.saldo = this.saldo + valor;
     }
-    
+
     public boolean sacar(double valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor; // this.saldo=this.saldo - valor
@@ -39,8 +39,5 @@ public class Conta {
                 "nome do titular=" + nomeTitular + "\n"+ 
                 "saldo=" + saldo;
     }
-            
-            
-                        
+                                                
             }
-
